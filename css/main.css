@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(../fonts/Minecraftia-Regular.ttf);
+}
+html { 
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Minecraft;
+    text-shadow: 1px 2px #3F3F3F;
+}
+div.players {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+div.players p.players {
+    font-size: 12px;
+    color: white;
+}
+p.notinv {
+    text-align: center;
+    color: red;
+    text-shadow: 1px 2px #3F1515;
+    font-size: 18px;
+}
+div#notinv {
+    position: fixed;
+    top: 40%;
+
+}
+.full {
+    color: #FF5555;
+    text-shadow: 1px 2px #3F1515;
+}
+.notfull {
+    color: #33ff00;
+    text-shadow: 1px 2px rgb(10, 82, 0);
+}
+.menu {
+    position: relative;
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.selection {
+    width: 500px;
+    position: fixed;
+    top: 110%;
+    text-align: center;
+}
+div.buttons {
+    width: 500px;
+    position: fixed;
+    top: 130%;
+    text-align: center;
+}
+.nav-menu {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: 45%;
+    vertical-align: baseline;
+    width: 100%;
+    margin: auto;
+}
+li {
+    float: left;
+    position: relative;
+    white-space: nowrap;
+}
+li.buttons {
+    padding: 25px;
+}
+a {
+    color: white;
+    text-shadow: 2px 2px #3F3F3F;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: default;
+    padding: 10px;
+}
+a:hover {
+    color: #FF5555;
+    text-shadow: 2px 2px #3F1515;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: default;
+    padding: 10px;
+}
+p.PaladiumV {
+    font-size: 24px;
+    color: #FFFF00;
+    text-shadow: 3px 2px #3f3f00;
+    animation-duration: 250ms;
+    animation-name: pala;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+div.PaladiumV {
+    position: fixed;
+    top: 60%;
+    right: -10%;
+    transform: rotate(-10deg);
+}
+@keyframes pala {
+    from {
+        font-size: 23px;
+    }
+    to {
+        font-size: 24px;
+    }
+  }
+div.footer {
+    display: block;
+    position: fixed;
+    bottom: 7px;
+    text-align: center;
+    width: 275px;
+    margin-right: auto;
+    left:50%;
+    margin-left:-137.5px;
+}
+p.footer {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
