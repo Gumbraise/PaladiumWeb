@@ -1,4 +1,4 @@
-# MazeRate
+# PaladiumWeb
 
 From the Minecraft Server Paladium
 
